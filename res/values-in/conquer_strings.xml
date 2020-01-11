@@ -63,9 +63,6 @@
     <string name="show_fourg_icon_title">Ikon 4G</string>
     <string name="show_fourg_icon_summary">Tampilakan ikon 4G sebagai LTE</string>
 
-    <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Item bar status</string>
-
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Bangunkan dengan tombol volume</string>
     <string name="volume_rocker_wake_summary">Bangunkan perangkat dengan menekan tombol volume</string>
@@ -283,5 +280,9 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Tampilkan ikon aplikasi pada toast</string>
     <string name="toast_icon_summary">Tampilkan ikon aplikasi pada setiap toast sistem berdasarkan aplikasi</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Ikon Bar status</string>
+    <string name="statusbar_items_summary">Pengatiran ikon yang akan di tampilkan di Bar status</string>
 
 </resources>
