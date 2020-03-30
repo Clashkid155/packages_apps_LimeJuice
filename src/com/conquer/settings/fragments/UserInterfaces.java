@@ -39,7 +39,7 @@ public class UserInterfaces extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.conquer_settings_ui);
+        addPreferencesFromResource(R.xml.lime_settings_ui);
     }
 
     @Override

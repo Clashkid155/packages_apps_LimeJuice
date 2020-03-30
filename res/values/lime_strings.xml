@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The ConquerOS Project
+<!-- Copyright (C) 2019 The AospLime Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,13 +15,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="settings_title">Personalization</string>
+    <string name="settings_title">Lime Juice</string>
 
     <!-- Categories -->
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">See another customization options</string>
     <string name="ui_title">Looks and feels</string>
     <string name="ui_summary">Customize yoir device interfaces</string>
+    <string name="button_settings_title">Buttons</string>
+    <string name="button_settings_summary">Customize your hardware buttons preference</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Status bar customization options</string>
     <string name="lockscreen_title">Lockscreen</string>
@@ -30,6 +32,8 @@
     <string name="notification_summary">Notification customization options</string>
     <string name="navbar_title">Navigation bar</string>
     <string name="navbar_summary">Navigation bar customization options</string>
+
+    <string name="navbar_tuner_title">Navigation Tuner</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -46,17 +50,6 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
-
-    <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
     <!-- 4G icon -->
     <string name="statusbar_items_category">Icons</string>
@@ -82,18 +75,14 @@
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 	
     <!-- ROM Info -->
-    <string name="rom_info_title">About ConquerOS</string>
+    <string name="rom_info_title">About AospLime</string>
     <string name="rom_info_summary">Know more about us!</string>
-    <string name="rom_summary">ConquerOS is an AOSP based custom ROM with additional features, and redefined UI to give best experience when using it.</string>
+    <string name="rom_summary">AospLime is an AOSP based Custom ROM with additional features, and redefined UI to give best experience when using it.</string>
     <string name="developers_category">Developers</string>
     <string name="dev1">HeroBuxx (Alif Fathur)</string>
-    <string name="dev1_summary">Lead developer, source mainatiner. UI/UX developer, device maintainer</string>
-    <string name="dev2">Chachinito (Chachi Desuasido)</string>
-    <string name="dev2_summary">Co-Lead developer, source mainatiner. project manager, device maintainer</string>
-	<string name="dev3">vishalcj17 (Vishal Cj)</string>
-    <string name="dev3_summary">Project manager, device maintainer</string>
-    <string name="dev4">Speedhorn (Manish Kandpal)</string>
-    <string name="dev4_summary">Project manager, device maintainer</string>
+    <string name="dev1_summary">• Project owner
+	• Lead Developer
+	• UX/UI Designer </string>
     
 	<!-- Links -->
 	<string name="links_category">Links</string>
@@ -105,26 +94,8 @@
     <string name="tg_chat_summary">Join our community on Telegram!</string>
     <string name="tg_channel">Telegram updates channel</string>
     <string name="tg_channel_summary">Get notified when new updates are come!</string>
-	
-    <!-- Maintainers -->
-    <string name="mainatiner_category">Device maintainer</string>
-    <string name="mido_dev">Redmi Note 4/4X</string>
-    <string name="mido_dev_summary">HeroBuxx (Alif Fathur)</string>
-    <string name="rosy_dev">Redmi 5</string>
-    <string name="rosy_dev_summary">"Vishal Cj ; Manish Kandpal"</string>
-    <string name="lavender_dev">Redmi Note 7/7S</string>
-    <string name="lavender_dev_summary">Zugeng Owen</string>
-    <string name="ysl_dev">Redmi Y2/S2</string>
-    <string name="ysl_dev_summary">Thinker J</string>
-    <string name="platina_dev">Mi 8 Lite</string>
-    <string name="platina_dev_summary">alikunzZz</string>	
-
-    <!-- Contributors -->
-    <string name="contributors_category">Contributors</string>
-    <string name="ali">alikunzZz</string>
-    <string name="ali_summary">Wallpaper designer</string>
-    <string name="salvatore">sasi2006165</string>
-    <string name="salvatore_summary">Wallpaper designer</string>
+    <string name="support_us">Support us!</string>
+    <string name="support_us_summary">Like our project? Support us by donating some to keep thi srom .</string>
 	
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
@@ -261,25 +232,12 @@
     <string name="lockdate_font_size_title">Date font size</string>
     <string name="lockclock_font_size_title">Clock font size</string>
 
-    <!-- LS OwnerInfo Font & Size -->
-    <string name="lock_ownerinfo_font_title">Owner Info font options</string>
-    <string name="lock_ownerinfo_font_summary">Change the default font of the lockscreen owner info</string>
-    <string name="lock_ownerinfo_font_dialog_title">Select lock owner info font</string>
-    <string name="lockowner_font_size_title">Owner info font size</string>
-
-    <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar buttons</string>
-
     <!-- QS category -->
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
 
     <!-- QS background opacity -->
     <string name="qs_panel_alpha_title">Quick settings panel background opacity</string>
-
-    <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar icons</string>

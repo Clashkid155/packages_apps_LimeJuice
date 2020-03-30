@@ -36,12 +36,4 @@
         android:summary="@string/clock_style_category_summary"
         android:fragment="com.conquer.settings.fragments.ClockSettings" />
 
-    <Preference
-        android:title="@string/statusbar_items_title"
-        android:summary="@string/statusbar_items_summary" >
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.android.systemui"
-            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-    </Preference>
-
 </PreferenceScreen>

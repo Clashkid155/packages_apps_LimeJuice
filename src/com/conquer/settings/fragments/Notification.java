@@ -41,7 +41,7 @@ public class Notification extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.conquer_settings_notification);
+        addPreferencesFromResource(R.xml.lime_settings_notification);
         PreferenceScreen prefScreen = getPreferenceScreen();
 
         mChargingLeds = (Preference) findPreference("charging_light");

@@ -41,7 +41,7 @@ public class StatusBar extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.conquer_settings_statusbar);
+        addPreferencesFromResource(R.xml.lime_settings_statusbar);
     }
 
     @Override

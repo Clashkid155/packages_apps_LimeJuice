@@ -39,7 +39,7 @@ public class Misc extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.conquer_settings_misc);
+        addPreferencesFromResource(R.xml.lime_settings_misc);
     }
 
     @Override

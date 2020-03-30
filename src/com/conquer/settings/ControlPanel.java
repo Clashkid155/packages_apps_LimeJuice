@@ -35,7 +35,7 @@ public class ControlPanel extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.conquer_settings);
+        addPreferencesFromResource(R.xml.lime_settings);
     }
 
     @Override

@@ -39,7 +39,7 @@ public class RomInfo extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.conquer_rom_info);
+        addPreferencesFromResource(R.xml.lime_rom_info);
     }
 
     @Override
