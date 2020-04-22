@@ -19,11 +19,11 @@
 
     <!-- Categories -->
     <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">See another customization options</string>
+    <string name="misc_summary">Extra customization options</string>
     <string name="ui_title">Looks and feels</string>
-    <string name="ui_summary">Customize yoir device interfaces</string>
+    <string name="ui_summary">Customize your device interface</string>
     <string name="button_settings_title">Buttons</string>
-    <string name="button_settings_summary">Customize your hardware buttons preference</string>
+    <string name="button_settings_summary">Customize your hardware buttons</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="statusbar_summary">Status bar customization options</string>
     <string name="lockscreen_title">Lockscreen</string>
