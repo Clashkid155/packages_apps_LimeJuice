@@ -19,6 +19,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.conquer.settings.preferences.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/tuner_show_brightness_new"
+        android:defaultValue="true" />
+            
+    <com.conquer.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_brightness_position_bottom"
         android:title="@string/qs_brightness_position_bottom_title"
         android:summary="@string/qs_brightness_position_bottom_summary"

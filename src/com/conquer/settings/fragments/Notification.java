@@ -33,8 +33,6 @@ import com.conquer.settings.R;
 
 public class Notification extends SettingsPreferenceFragment {
 
-    private Preference mChargingLeds;
-	
     public static final String TAG = "Notification";
 
     @Override
@@ -42,14 +40,6 @@ public class Notification extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.lime_settings_notification);
-        PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mChargingLeds = (Preference) findPreference("charging_light");
-        if (mChargingLeds != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            prefScreen.removePreference(mChargingLeds);
-        }
     }
 
     @Override
