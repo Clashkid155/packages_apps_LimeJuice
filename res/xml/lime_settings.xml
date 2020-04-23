@@ -34,13 +34,13 @@
             android:fragment="com.conquer.settings.fragments.UserInterfaces"
             android:icon="@drawable/ic_settings_int"/>
 
-        <!-- Buttons -->
+        <!-- Buttons 
         <Preference
             android:key="button_settings"
             android:title="@string/button_settings_title"
             android:summary="@string/button_settings_summary"
             android:fragment="com.android.settings.custom.buttons.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
+            android:icon="@drawable/ic_settings_buttons"/> -->
 			
         <!-- Lockscreen -->
         <Preference
