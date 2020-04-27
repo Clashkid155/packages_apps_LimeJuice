@@ -38,34 +38,37 @@
 			
         <Preference
             android:title="@string/github"
-            android:summary="@string/github_summary" >
+            android:summary="@string/github_summary"
+            android:icon="@drawable/ic_github" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://github.com/conqueros" />
+            android:data="https://github.com/aosplime" />
         </Preference>
 
-        <Preference
+        <!--Preference We dont have a website yet
             android:title="@string/website"
             android:summary="@string/website_summary" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="conqueros.tk" />
-        </Preference>
+        </Preference-->
 		
         <Preference
             android:title="@string/tg_chat"
-            android:summary="@string/tg_chat_summary" >
+            android:summary="@string/tg_chat_summary"
+            android:icon="@drawable/telegram" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/ConquerOSChat" />
+            android:data="https://t.me/aosplime" />
         </Preference>
 		
         <Preference
             android:title="@string/tg_channel"
-            android:summary="@string/tg_channel_summary" >
+            android:summary="@string/tg_channel_summary"
+            android:icon="@drawable/telegram" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/ConquerOSNews" />
+            android:data="https://t.me/aosplimeCH" />
         </Preference>
 		
         <Preference
