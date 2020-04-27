@@ -93,14 +93,14 @@
 	<string name="links_category">Links</string>
     <string name="github">GitHub</string>
     <string name="github_summary">See our source code.</string>
-    <string name="website">Website</string>
-    <string name="website_summary">Our project website.</string>	
+    <!-- We don't have a website yet. <string name="website">Website</string>
+    <string name="website_summary">Our project website.</string>	-->
     <string name="tg_chat">Telegram group chat</string>
     <string name="tg_chat_summary">Join our community on Telegram!</string>
     <string name="tg_channel">Telegram updates channel</string>
-    <string name="tg_channel_summary">Get notified when new updates are come!</string>
+    <string name="tg_channel_summary">Get notified when updates are available.</string>
     <string name="support_us">Support us!</string>
-    <string name="support_us_summary">Like our project? Support us by donating some to keep thi srom .</string>
+    <string name="support_us_summary">Like our project? Support us by donating.</string>
 	
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
